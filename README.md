@@ -41,7 +41,7 @@ CheckHintPosition - mini plugin for a cheking position of your hints by window s
 ```
 
 # Initializing example
-```js
+```javascript
 var checkAllPartnersHint = new CheckHintPosition('.hint__container', '.hint');
 
 $(window).load(function () {
