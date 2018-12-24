@@ -1,6 +1,9 @@
 # checkHintPosition
 CheckHintPosition - mini plugin for a cheking position of your hints by window size
 
+# Dependences
+1. <a href="https://jquery.com/download/" target="_blank">jQuery</a>
+
 # HTML example
 ```html
 <div class="hint__container">
