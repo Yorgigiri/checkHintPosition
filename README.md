@@ -2,13 +2,16 @@
 CheckHintPosition - mini plugin for a cheking position of your hints by window size
 
 # HTML example
+```html
 <div class="hint__container">
   <div class="hint">
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porttitor sapien eu malesuada tempor.</p>
   </div>
 </div>
+```
 
 # CSS example
+```css
 .hint {
     max-width: 370px;
     visibility: hidden;
@@ -32,8 +35,10 @@ CheckHintPosition - mini plugin for a cheking position of your hints by window s
     opacity: 1;
     top: 50%;
 }
+```
 
 # Initializing example
+```js
 var checkAllPartnersHint = new CheckHintPosition('.hint__container', '.hint');
 
 $(window).load(function () {
@@ -43,3 +48,4 @@ $(window).load(function () {
 $(window).resize(function () {
     checkAllPartnersHint.calcHintPosition();
 });
+```
