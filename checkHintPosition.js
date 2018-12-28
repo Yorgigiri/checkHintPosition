@@ -16,12 +16,12 @@ var CheckHintPosition = function (selector, hint) {
             if (checkDifference < 70) {
                 findHint.css({
                     left: 'initial',
-                    right: '50%'
+                    right: '30%'
                 });
             }
             else {
                 findHint.css({
-                    left: '50%',
+                    left: '30%',
                     right: 'initial'
                 });
             }
