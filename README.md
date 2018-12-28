@@ -21,7 +21,7 @@ CheckHintPosition - mini plugin for a cheking position of your hints by window s
     opacity: 0;
     position: absolute;
     min-width: 300px;
-    left: 50%;
+    left: 30%;
     top: 30%;
     padding: 25px 20px;
     background: #ffffff;
